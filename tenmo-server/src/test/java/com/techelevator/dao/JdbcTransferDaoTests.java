@@ -1,7 +1,6 @@
 package com.techelevator.dao;
-import com.techelevator.tenmo.dao.JdbcTransferDao;
-import com.techelevator.tenmo.model.Account;
-import com.techelevator.tenmo.model.Transfer;
+import aqlabs.TenmoMoneyTransfer.xyz.dao.JdbcTransferDao;
+import aqlabs.TenmoMoneyTransfer.xyz.model.Transfer;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -12,8 +11,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 
 import java.math.BigDecimal;
-import java.util.ArrayList;
-import java.util.List;
+
 @RunWith(SpringRunner.class)
 @ContextConfiguration(classes = TestingDatabaseConfig.class)
 public class JdbcTransferDaoTests extends BaseDaoTests {

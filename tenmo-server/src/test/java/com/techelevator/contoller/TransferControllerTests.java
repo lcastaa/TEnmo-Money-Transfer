@@ -1,11 +1,9 @@
 package com.techelevator.contoller;
 
 
-import com.techelevator.tenmo.controller.TransferController;
-import com.techelevator.tenmo.dao.JdbcAccountDao;
-import com.techelevator.tenmo.dao.JdbcTransferDao;
-import com.techelevator.tenmo.model.Transfer;
-import com.techelevator.tenmo.model.User;
+import aqlabs.TenmoMoneyTransfer.xyz.controller.TransferController;
+import aqlabs.TenmoMoneyTransfer.xyz.dao.JdbcTransferDao;
+import aqlabs.TenmoMoneyTransfer.xyz.model.Transfer;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -21,10 +19,8 @@ import java.util.List;
 
 import static org.hamcrest.Matchers.hasSize;
 import static org.hamcrest.Matchers.is;
-import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.jsonPath;
-import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.status;
 
 @RunWith(MockitoJUnitRunner.class)
 public class TransferControllerTests {

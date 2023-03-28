@@ -1,21 +1,13 @@
 package com.techelevator.dao;
 
-import com.techelevator.tenmo.dao.JdbcAccountDao;
-import com.techelevator.tenmo.exceptions.AccountExceptions.InvalidUserIdForAccountGetException;
-import com.techelevator.tenmo.exceptions.EmptyRowSetException;
-import com.techelevator.tenmo.exceptions.UserExceptions.NullUsernameException;
-import com.techelevator.tenmo.model.Account;
+import aqlabs.TenmoMoneyTransfer.xyz.dao.JdbcAccountDao;
+import aqlabs.TenmoMoneyTransfer.xyz.model.Account;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
-import org.junit.jupiter.api.function.Executable;
-import org.junit.platform.engine.support.hierarchical.ThrowableCollector;
 import org.springframework.jdbc.core.JdbcTemplate;
 
 import java.math.BigDecimal;
-import java.math.RoundingMode;
-import java.util.ArrayList;
-import java.util.List;
 
 import static org.junit.jupiter.api.Assertions.assertThrows;
 

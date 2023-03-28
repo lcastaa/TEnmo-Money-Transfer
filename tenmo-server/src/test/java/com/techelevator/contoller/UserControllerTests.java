@@ -1,8 +1,8 @@
 package com.techelevator.contoller;
 
-import com.techelevator.tenmo.controller.UserController;
-import com.techelevator.tenmo.dao.JdbcUserDao;
-import com.techelevator.tenmo.model.User;
+import aqlabs.TenmoMoneyTransfer.xyz.controller.UserController;
+import aqlabs.TenmoMoneyTransfer.xyz.dao.JdbcUserDao;
+import aqlabs.TenmoMoneyTransfer.xyz.model.User;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;

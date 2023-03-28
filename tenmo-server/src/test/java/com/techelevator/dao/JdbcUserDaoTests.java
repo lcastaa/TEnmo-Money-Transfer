@@ -1,7 +1,7 @@
 package com.techelevator.dao;
 
-import com.techelevator.tenmo.dao.JdbcUserDao;
-import com.techelevator.tenmo.model.User;
+import aqlabs.TenmoMoneyTransfer.xyz.dao.JdbcUserDao;
+import aqlabs.TenmoMoneyTransfer.xyz.model.User;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;

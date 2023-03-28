@@ -7,10 +7,8 @@
         <relativePath/>
         <!--  lookup parent from repository  -->
     </parent>
-    <groupId>com.techelevator</groupId>
-    <artifactId>m02-capstone-server</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>tenmo</name>
+    <groupId>xyz.aqlabs</groupId>
+    <artifactId>TEnmo-Backend-Server</artifactId>
     <description>TE Bucks Payment System</description>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
