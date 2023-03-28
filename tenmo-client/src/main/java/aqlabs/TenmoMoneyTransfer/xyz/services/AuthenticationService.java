@@ -1,6 +1,6 @@
 package aqlabs.TenmoMoneyTransfer.xyz.services;
 
-import com.techelevator.util.BasicLogger;
+import utils.BasicLogger;
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.HttpMethod;

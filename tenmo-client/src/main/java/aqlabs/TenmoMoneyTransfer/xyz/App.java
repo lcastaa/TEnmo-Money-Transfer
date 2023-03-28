@@ -7,8 +7,6 @@ import aqlabs.TenmoMoneyTransfer.xyz.model.Transfer;
 import aqlabs.TenmoMoneyTransfer.xyz.model.User;
 import aqlabs.TenmoMoneyTransfer.xyz.model.UserCredentials;
 import aqlabs.TenmoMoneyTransfer.xyz.services.*;
-import com.techelevator.tenmo.model.*;
-import com.techelevator.tenmo.services.*;
 
 import java.math.BigDecimal;
 

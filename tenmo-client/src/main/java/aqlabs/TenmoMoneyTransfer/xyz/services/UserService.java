@@ -2,7 +2,7 @@ package aqlabs.TenmoMoneyTransfer.xyz.services;
 
 import aqlabs.TenmoMoneyTransfer.xyz.model.User;
 import aqlabs.TenmoMoneyTransfer.xyz.model.AuthenticatedUser;
-import com.techelevator.util.BasicLogger;
+import utils.BasicLogger;
 import org.springframework.http.*;
 import org.springframework.web.client.ResourceAccessException;
 import org.springframework.web.client.RestClientResponseException;

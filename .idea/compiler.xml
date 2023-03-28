@@ -6,18 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="m02-capstone-client" />
-        <module name="m02-capstone-server" />
+        <module name="tenmo-server" />
+      </profile>
+      <profile name="Annotation profile for tenmo" enabled="true">
+        <sourceOutputDir name="../target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="TEnmo-Client" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="m02-capstone-client" target="11" />
-      <module name="m02-capstone-server" target="11" />
+      <module name="TEnmo-Client" target="11" />
+      <module name="tenmo-server" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="m02-capstone-server" options="-parameters" />
+      <module name="tenmo-server" options="-parameters" />
     </option>
   </component>
 </project>
